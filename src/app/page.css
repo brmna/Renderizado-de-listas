@@ -1,0 +1,122 @@
+body {
+  background-color: #0a0a0a;
+  color: black;
+  font-family: Arial, sans-serif;
+  margin: 15px;
+}
+
+h1{
+  font-size: 20px;
+  margin:10px;
+  text-align: center;
+  color: whitesmoke;
+}
+
+h2 {
+  margin: 10px;
+  color: whitesmoke;
+}
+
+.div-nums {
+  display: flex;
+}
+
+.ul-nums {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+.div-names, .ul-names{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.ul-names li {
+  background: #fff;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+
+.div-persons {
+  margin-bottom: 10px;
+  max-width: 300px; 
+  min-width: 180px;
+  background: #eee;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+
+
+
+
+
+.div-products {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #eee;
+  color: black;
+  border-radius: 5px;
+  padding:15px;
+  font-size: 15px;
+  width: 210px;
+  height: 450px;
+  box-sizing: border-box;
+}
+
+.card button {
+  background: rgb(23, 18, 23);
+  color: whitesmoke;
+  padding: 10px 60px;
+  border-radius: 6px;
+  margin-top: auto;
+  cursor: pointer;
+}
+
+.card button:hover {
+  background: #0c0909;
+  transition-duration: 0.2s;
+}
+
+.card img{
+  max-width: 180px;
+  min-width: 180px;
+  padding: 15px;
+  margin: auto;
+}
+
+#category {
+  color: purple;
+  font-weight: bold;
+}
+
+#price{
+  color: green;
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
