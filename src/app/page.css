@@ -17,29 +17,29 @@ h2 {
   color: whitesmoke;
 }
 
-.div-nums {
+.nums-container {
   display: flex;
 }
 
-.ul-nums {
+.nums-ul {
   background-color: #fff;
   padding: 10px;
   text-align: center;
 }
 
-.div-names, .ul-names{
+.names-container, .names-ul {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
 }
 
-.ul-names li {
+.names-ul li {
   background: #fff;
   padding: 8px 12px;
   border-radius: 8px;
 }
 
-.div-persons {
+.persons-div {
   margin-bottom: 10px;
   max-width: 300px; 
   min-width: 180px;
@@ -49,12 +49,7 @@ h2 {
   font-size: 14px;
 }
 
-
-
-
-
-
-.div-products {
+.products-div {
   display: flex;
   gap: 20px;
   flex-wrap: wrap;
@@ -104,19 +99,3 @@ h2 {
   color: green;
   font-weight: bold;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

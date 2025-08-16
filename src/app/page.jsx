@@ -105,8 +105,8 @@ export default function Listas() {
     <div>
       <h1>Renderización de listas</h1>
       <h2>1. Lista de números</h2>
-      <div className="div-nums">
-        <ul className="ul-nums">
+      <div className="nums-container">
+        <ul className="nums-ul">
           {nums.map((nums, i) => (
             <li key={i}> {nums} </li>
           ))}
@@ -114,8 +114,8 @@ export default function Listas() {
       </div>
 
       <h2>2. Lista de nombres</h2>
-      <div className="div-names">
-        <ul className="ul-names">
+      <div className="names-container">
+        <ul className="names-ul">
           {names.map((names, i) => (
             <li key={i}> {names} </li>
           ))}
@@ -124,7 +124,7 @@ export default function Listas() {
 
       <h2>3. Lista de personas</h2>
       {persons.map(( p, i ) => (
-        <div className="div-persons" key={i}>
+        <div className="persons-div" key={i}>
           <p><strong>Nombre:</strong> {p.nombre}</p>
           <p><strong>Apellido:</strong> {p.apellido}</p>
           <p><strong>Correo:</strong> {p.correo}</p>
@@ -134,7 +134,7 @@ export default function Listas() {
         ))}
 
       <h2>4. Lista de productos</h2>
-      <div className="div-products">
+      <div className="products-div">
         {products.map((pd, i) => (
           <div className="card" key={i}>
             <img src={pd.imagen} alt={pd.nombre} />
